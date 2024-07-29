@@ -10,11 +10,7 @@ import java.util.Set;
 
 
 public class FileCompare    {
-    public static void main(String[] args) {
-        String file1 = "/home/prateek/Documents/filename1.txt";
-        String file2 = "/home/prateek/Documents/filename2.txt";
-        compareFiles(file1, file2);
-    }
+
 
     public static void compareFiles (String file1, String file2) {
         Map<String, String> map1 = readFile(file1);
